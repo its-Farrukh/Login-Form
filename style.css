@@ -1,0 +1,47 @@
+div.form-box{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #333;
+    padding: 50px;
+   }
+
+   div .user{
+       margin-bottom: 20px;
+      }
+   
+   div .pass{
+       margin-bottom: 20px;
+   }
+ 
+  
+   body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(8, 41, 76); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 0px;
+    background-image: url(iconimage.jpg);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding-left: 17px;
+  }
+  button{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 330px;
+    padding: 7px;
+    font-size:1.3em;}
